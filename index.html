@@ -1,55 +1,243 @@
 <!doctype html>
-<html lang="en">
-  <head>
-  <meta charset="utf-8"/>
-  <link rel="icon" href="/favicon.ico"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <meta name="theme-color" content="#000000"/>
-  <meta name="description" content="Web site created using create-react-app"/>
-  <link rel="apple-touch-icon" href="/logo192.png"/>
-  <link rel="manifest" href="/manifest.json"/>
-  <title>Lobe Web</title><link href="/static/css/main.2bb9fb98.chunk.css" rel="stylesheet">
-  </head>
+<html lang="ja" class="translated-ltr"><head>
+    <meta charset="utf-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>ローブウェブ</title>
+  <style>body {
+  margin: 0;
+  font-family: SFProDisplay, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvaW5kZXguY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsU0FBUztFQUNUOztjQUVZO0VBQ1osbUNBQW1DO0VBQ25DLGtDQUFrQztBQUNwQzs7QUFFQTtFQUNFO2FBQ1c7QUFDYiIsInNvdXJjZXNDb250ZW50IjpbImJvZHkge1xuICBtYXJnaW46IDA7XG4gIGZvbnQtZmFtaWx5OiBTRlByb0Rpc3BsYXksIC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgJ1JvYm90bycsICdPeHlnZW4nLFxuICAgICdVYnVudHUnLCAnQ2FudGFyZWxsJywgJ0ZpcmEgU2FucycsICdEcm9pZCBTYW5zJywgJ0hlbHZldGljYSBOZXVlJyxcbiAgICBzYW5zLXNlcmlmO1xuICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcbiAgLW1vei1vc3gtZm9udC1zbW9vdGhpbmc6IGdyYXlzY2FsZTtcbn1cblxuY29kZSB7XG4gIGZvbnQtZmFtaWx5OiBzb3VyY2UtY29kZS1wcm8sIE1lbmxvLCBNb25hY28sIENvbnNvbGFzLCAnQ291cmllciBOZXcnLFxuICAgIG1vbm9zcGFjZTtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.blur-container {
+    color: #ffffff;
+    padding: 16px;
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+    background-color: rgba(51, 51, 51, 0.32);
+    min-width: 80px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvY29tcG9uZW50cy9CbHVyQ29udGFpbmVyLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGNBQWM7SUFDZCxhQUFhO0lBQ2IsbUNBQW1DO0lBQ25DLDJCQUEyQjtJQUMzQix3Q0FBd0M7SUFDeEMsZUFBZTtBQUNuQiIsInNvdXJjZXNDb250ZW50IjpbIi5ibHVyLWNvbnRhaW5lciB7XG4gICAgY29sb3I6ICNmZmZmZmY7XG4gICAgcGFkZGluZzogMTZweDtcbiAgICAtd2Via2l0LWJhY2tkcm9wLWZpbHRlcjogYmx1cig0MHB4KTtcbiAgICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNDBweCk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSg1MSwgNTEsIDUxLCAwLjMyKTtcbiAgICBtaW4td2lkdGg6IDgwcHg7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>.square-button {
+    border-radius: 16px;
+    overflow: hidden;
+    width: 45px;
+    min-width: auto;
+    height: 45px;
+    margin-bottom: 10px;
+    padding: 0!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvY29tcG9uZW50cy9TcXVhcmVCdXR0b24uY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksbUJBQW1CO0lBQ25CLGdCQUFnQjtJQUNoQixXQUFXO0lBQ1gsZUFBZTtJQUNmLFlBQVk7SUFDWixtQkFBbUI7SUFDbkIsb0JBQW9CO0lBQ3BCLGFBQWE7SUFDYix1QkFBdUI7SUFDdkIsbUJBQW1CO0FBQ3ZCIiwic291cmNlc0NvbnRlbnQiOlsiLnNxdWFyZS1idXR0b24ge1xuICAgIGJvcmRlci1yYWRpdXM6IDE2cHg7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgICB3aWR0aDogNDVweDtcbiAgICBtaW4td2lkdGg6IGF1dG87XG4gICAgaGVpZ2h0OiA0NXB4O1xuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XG4gICAgcGFkZGluZzogMCFpbXBvcnRhbnQ7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.source-item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.source-item-container:first-child {
+    margin-top: 10px;
+}
+
+.source-device {
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: #ffffff;
+    opacity: 0.6;
+    margin-left: 8px;
+    margin-right: 44px;
+}
+
+.source-selected {
+    opacity: 1;
+}
+
+.source-radio-button {
+    margin-right: 8px;
+    height: 24px;
+    width: 24px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvY29tcG9uZW50cy9jYW1lcmEvU291cmNlU2VsZWN0b3JJdGVtLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGFBQWE7SUFDYixtQkFBbUI7SUFDbkIsbUJBQW1CO0lBQ25CLDhCQUE4QjtJQUM5QixtQkFBbUI7QUFDdkI7QUFDQTtJQUNJLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLGVBQWU7SUFDZixnQkFBZ0I7SUFDaEIsb0JBQW9CO0lBQ3BCLGtCQUFrQjtJQUNsQixpQkFBaUI7SUFDakIsc0JBQXNCO0lBQ3RCLGNBQWM7SUFDZCxZQUFZO0lBQ1osZ0JBQWdCO0lBQ2hCLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLFVBQVU7QUFDZDs7QUFFQTtJQUNJLGlCQUFpQjtJQUNqQixZQUFZO0lBQ1osV0FBVztBQUNmIiwic291cmNlc0NvbnRlbnQiOlsiLnNvdXJjZS1pdGVtLWNvbnRhaW5lciB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICAgIG1hcmdpbi1ib3R0b206IDE4cHg7XG59XG4uc291cmNlLWl0ZW0tY29udGFpbmVyOmZpcnN0LWNoaWxkIHtcbiAgICBtYXJnaW4tdG9wOiAxMHB4O1xufVxuXG4uc291cmNlLWRldmljZSB7XG4gICAgZm9udC1zaXplOiAxNnB4O1xuICAgIGZvbnQtd2VpZ2h0OiA1MDA7XG4gICAgZm9udC1zdHJldGNoOiBub3JtYWw7XG4gICAgZm9udC1zdHlsZTogbm9ybWFsO1xuICAgIGxpbmUtaGVpZ2h0OiAxLjMxO1xuICAgIGxldHRlci1zcGFjaW5nOiBub3JtYWw7XG4gICAgY29sb3I6ICNmZmZmZmY7XG4gICAgb3BhY2l0eTogMC42O1xuICAgIG1hcmdpbi1sZWZ0OiA4cHg7XG4gICAgbWFyZ2luLXJpZ2h0OiA0NHB4O1xufVxuXG4uc291cmNlLXNlbGVjdGVkIHtcbiAgICBvcGFjaXR5OiAxO1xufVxuXG4uc291cmNlLXJhZGlvLWJ1dHRvbiB7XG4gICAgbWFyZ2luLXJpZ2h0OiA4cHg7XG4gICAgaGVpZ2h0OiAyNHB4O1xuICAgIHdpZHRoOiAyNHB4O1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>#camera-select-button {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#gear-icon {
+    height: 24px;
+    width: 24px;
+    transition: transform 0.3s;
+}
+
+.gear-rotated {
+    transform: rotate(90deg);
+}
+
+.source-selector {
+    border-radius: 24px;
+    transition: all 0.3s;
+    transform-origin: top right;
+    transform: scaleY(0) scaleX(0.1);
+    opacity: 0;
+}
+
+.source-expanded {
+    transform: scaleY(1) scaleX(1);
+    opacity: 1;
+}
+
+.toggle-container {
+    margin-left: -4px;
+    margin-right: -4px;
+    padding: 15px 12px 14px;
+    border-radius: 14px;
+    background-color: rgba(255,255,255,.1);
+}
+
+.toggle-item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.toggle-item-container:last-child {
+    margin-bottom: 0;
+}
+
+.toggle-item {
+    margin-left: 0!important;
+    margin-right: 52px!important;
+}
+
+.toggle-radio-button {
+    height: 24px;
+    width: 24px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvY29tcG9uZW50cy9jYW1lcmEvU291cmNlU2VsZWN0b3IuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksa0JBQWtCO0lBQ2xCLFVBQVU7SUFDVixTQUFTO0lBQ1QsV0FBVztJQUNYLGFBQWE7SUFDYixzQkFBc0I7SUFDdEIscUJBQXFCO0FBQ3pCOztBQUVBO0lBQ0ksWUFBWTtJQUNaLFdBQVc7SUFDWCwwQkFBMEI7QUFDOUI7O0FBRUE7SUFDSSx3QkFBd0I7QUFDNUI7O0FBRUE7SUFDSSxtQkFBbUI7SUFDbkIsb0JBQW9CO0lBQ3BCLDJCQUEyQjtJQUMzQixnQ0FBZ0M7SUFDaEMsVUFBVTtBQUNkOztBQUVBO0lBQ0ksOEJBQThCO0lBQzlCLFVBQVU7QUFDZDs7QUFFQTtJQUNJLGlCQUFpQjtJQUNqQixrQkFBa0I7SUFDbEIsdUJBQXVCO0lBQ3ZCLG1CQUFtQjtJQUNuQixzQ0FBc0M7QUFDMUM7O0FBRUE7SUFDSSxhQUFhO0lBQ2IsbUJBQW1CO0lBQ25CLG1CQUFtQjtJQUNuQiw4QkFBOEI7SUFDOUIsbUJBQW1CO0FBQ3ZCO0FBQ0E7SUFDSSxnQkFBZ0I7QUFDcEI7O0FBRUE7SUFDSSx3QkFBd0I7SUFDeEIsNEJBQTRCO0FBQ2hDOztBQUVBO0lBQ0ksWUFBWTtJQUNaLFdBQVc7QUFDZiIsInNvdXJjZXNDb250ZW50IjpbIiNjYW1lcmEtc2VsZWN0LWJ1dHRvbiB7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHotaW5kZXg6IDE7XG4gICAgdG9wOiAyMHB4O1xuICAgIHJpZ2h0OiAyMHB4O1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICBhbGlnbi1pdGVtczogZmxleC1lbmQ7XG59XG5cbiNnZWFyLWljb24ge1xuICAgIGhlaWdodDogMjRweDtcbiAgICB3aWR0aDogMjRweDtcbiAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4zcztcbn1cblxuLmdlYXItcm90YXRlZCB7XG4gICAgdHJhbnNmb3JtOiByb3RhdGUoOTBkZWcpO1xufVxuXG4uc291cmNlLXNlbGVjdG9yIHtcbiAgICBib3JkZXItcmFkaXVzOiAyNHB4O1xuICAgIHRyYW5zaXRpb246IGFsbCAwLjNzO1xuICAgIHRyYW5zZm9ybS1vcmlnaW46IHRvcCByaWdodDtcbiAgICB0cmFuc2Zvcm06IHNjYWxlWSgwKSBzY2FsZVgoMC4xKTtcbiAgICBvcGFjaXR5OiAwO1xufVxuXG4uc291cmNlLWV4cGFuZGVkIHtcbiAgICB0cmFuc2Zvcm06IHNjYWxlWSgxKSBzY2FsZVgoMSk7XG4gICAgb3BhY2l0eTogMTtcbn1cblxuLnRvZ2dsZS1jb250YWluZXIge1xuICAgIG1hcmdpbi1sZWZ0OiAtNHB4O1xuICAgIG1hcmdpbi1yaWdodDogLTRweDtcbiAgICBwYWRkaW5nOiAxNXB4IDEycHggMTRweDtcbiAgICBib3JkZXItcmFkaXVzOiAxNHB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LDI1NSwyNTUsLjEpO1xufVxuXG4udG9nZ2xlLWl0ZW0tY29udGFpbmVyIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG4gICAgbWFyZ2luLWJvdHRvbTogMThweDtcbn1cbi50b2dnbGUtaXRlbS1jb250YWluZXI6bGFzdC1jaGlsZCB7XG4gICAgbWFyZ2luLWJvdHRvbTogMDtcbn1cblxuLnRvZ2dsZS1pdGVtIHtcbiAgICBtYXJnaW4tbGVmdDogMCFpbXBvcnRhbnQ7XG4gICAgbWFyZ2luLXJpZ2h0OiA1MnB4IWltcG9ydGFudDtcbn1cblxuLnRvZ2dsZS1yYWRpby1idXR0b24ge1xuICAgIGhlaWdodDogMjRweDtcbiAgICB3aWR0aDogMjRweDtcbn0iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>#video-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvY29tcG9uZW50cy9jYW1lcmEvQ2FtZXJhLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7SUFDWixhQUFhO0FBQ2pCOztBQUVBO0lBQ0ksV0FBVztJQUNYLFlBQVk7SUFDWixpQkFBaUI7SUFDakIsdUJBQXVCO0FBQzNCIiwic291cmNlc0NvbnRlbnQiOlsiI3ZpZGVvLWNvbnRhaW5lciB7XG4gICAgd2lkdGg6IDEwMHZ3O1xuICAgIGhlaWdodDogMTAwdmg7XG59XG5cbnZpZGVvIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IDEwMCU7XG4gICAgb2JqZWN0LWZpdDogY292ZXI7XG4gICAgb2JqZWN0LXBvc2l0aW9uOiBjZW50ZXI7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>.prediction-entry {
+    position: relative;
+    padding: 0 144px 0 16px;
+    margin-bottom: 12px;
+    line-height: 58px;
+    height: 58px;
+}
+.prediction-entry:last-child {
+    margin-bottom: 0;
+}
+
+.prediction-bar {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    height: 58px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 23px;
+    min-width: 46px;
+    transition: width .3s linear;
+}
+
+.prediction-green {
+    background-color: #00ddb3;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvY29tcG9uZW50cy9wcmVkaWN0aW9uL1ByZWRpY3Rpb25FbnRyeS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxrQkFBa0I7SUFDbEIsdUJBQXVCO0lBQ3ZCLG1CQUFtQjtJQUNuQixpQkFBaUI7SUFDakIsWUFBWTtBQUNoQjtBQUNBO0lBQ0ksZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCxPQUFPO0lBQ1AsTUFBTTtJQUNOLFlBQVk7SUFDWixtQ0FBbUM7SUFDbkMsMkJBQTJCO0lBQzNCLDBDQUEwQztJQUMxQyxtQkFBbUI7SUFDbkIsZUFBZTtJQUNmLDRCQUE0QjtBQUNoQzs7QUFFQTtJQUNJLHlCQUF5QjtBQUM3QiIsInNvdXJjZXNDb250ZW50IjpbIi5wcmVkaWN0aW9uLWVudHJ5IHtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgcGFkZGluZzogMCAxNDRweCAwIDE2cHg7XG4gICAgbWFyZ2luLWJvdHRvbTogMTJweDtcbiAgICBsaW5lLWhlaWdodDogNThweDtcbiAgICBoZWlnaHQ6IDU4cHg7XG59XG4ucHJlZGljdGlvbi1lbnRyeTpsYXN0LWNoaWxkIHtcbiAgICBtYXJnaW4tYm90dG9tOiAwO1xufVxuXG4ucHJlZGljdGlvbi1iYXIge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB6LWluZGV4OiAtMTtcbiAgICBsZWZ0OiAwO1xuICAgIHRvcDogMDtcbiAgICBoZWlnaHQ6IDU4cHg7XG4gICAgLXdlYmtpdC1iYWNrZHJvcC1maWx0ZXI6IGJsdXIoMTBweCk7XG4gICAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDEwcHgpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC4yKTtcbiAgICBib3JkZXItcmFkaXVzOiAyM3B4O1xuICAgIG1pbi13aWR0aDogNDZweDtcbiAgICB0cmFuc2l0aW9uOiB3aWR0aCAuM3MgbGluZWFyO1xufVxuXG4ucHJlZGljdGlvbi1ncmVlbiB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzAwZGRiMztcbn0iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>.prediction-container {
+    border-radius: 39px;
+    position: absolute;
+    z-index: 1;
+    bottom: 40px;
+    left: 40px;
+    font-size: 38px;
+    font-weight: 500;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvY29tcG9uZW50cy9wcmVkaWN0aW9uL1ByZWRpY3Rpb24uY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksbUJBQW1CO0lBQ25CLGtCQUFrQjtJQUNsQixVQUFVO0lBQ1YsWUFBWTtJQUNaLFVBQVU7SUFDVixlQUFlO0lBQ2YsZ0JBQWdCO0FBQ3BCIiwic291cmNlc0NvbnRlbnQiOlsiLnByZWRpY3Rpb24tY29udGFpbmVyIHtcbiAgICBib3JkZXItcmFkaXVzOiAzOXB4O1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB6LWluZGV4OiAxO1xuICAgIGJvdHRvbTogNDBweDtcbiAgICBsZWZ0OiA0MHB4O1xuICAgIGZvbnQtc2l6ZTogMzhweDtcbiAgICBmb250LXdlaWdodDogNTAwO1xufSJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>#image-select-button {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvY29tcG9uZW50cy9zdGF0aWNJbWFnZS9JbWFnZVNlbGVjdG9yQnV0dG9uLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGtCQUFrQjtJQUNsQixVQUFVO0lBQ1YsU0FBUztJQUNULFVBQVU7QUFDZCIsInNvdXJjZXNDb250ZW50IjpbIiNpbWFnZS1zZWxlY3QtYnV0dG9uIHtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgei1pbmRleDogMTtcbiAgICB0b3A6IDIwcHg7XG4gICAgbGVmdDogMjBweDtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>#image-close-button {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    right: 20px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvY29tcG9uZW50cy9zdGF0aWNJbWFnZS9JbWFnZUNsb3NlQnV0dG9uLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGtCQUFrQjtJQUNsQixVQUFVO0lBQ1YsU0FBUztJQUNULFdBQVc7QUFDZiIsInNvdXJjZXNDb250ZW50IjpbIiNpbWFnZS1jbG9zZS1idXR0b24ge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB6LWluZGV4OiAxO1xuICAgIHRvcDogMjBweDtcbiAgICByaWdodDogMjBweDtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>#static-image {
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvY29tcG9uZW50cy9zdGF0aWNJbWFnZS9TdGF0aWNJbWFnZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxZQUFZO0lBQ1osYUFBYTtJQUNiLDJCQUEyQjtJQUMzQix3QkFBd0I7SUFDeEIsNEJBQTRCO0FBQ2hDIiwic291cmNlc0NvbnRlbnQiOlsiI3N0YXRpYy1pbWFnZSB7XG4gICAgd2lkdGg6IDEwMHZ3O1xuICAgIGhlaWdodDogMTAwdmg7XG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xuICAgIGJhY2tncm91bmQtc2l6ZTogY29udGFpbjtcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css"></head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.
-  </noscript>
-    <div id="root">
-  </div>
-  <script>
-    !function(e)
-    {function r(r)
-     {for(var n,a,i=r[0],l=r[1],c=r[2],s=0,p=[];
-          s<i.length;s++)a=i[s],Object.prototype.hasOwnProperty.call(o,a)&&o[a]&&p.push(o[a][0]),o[a]=0;
-      for(n in l)Object.prototype.hasOwnProperty.call(l,n)&&(e[n]=l[n]);
-      for(f&&f(r);p.length;)p.shift()();
-      return u.push.apply(u,c||[]),t()}
-     function t()
-     {for(var e,r=0;r<u.length;r++)
-     {for(var t=u[r],n=!0,i=1;i<t.length;i++){var l=t[i];0!==o[l]&&(n=!1)}n&&(u.splice(r--,1),e=a(a.s=t[0]))}return e}var n={},o={1:0},u=[];
-     function a(r){if(n[r])return n[r].exports;
-                   var t=n[r]={i:r,l:!1,exports:{}};
-                   return e[r].call(t.exports,t,t.exports,a),t.l=!0,t.exports}a.e=function(e){var r=[],t=o[e];
-                                                                                              if(0!==t)if(t)r.push(t[2]);
-                                                                                                else{var n=new Promise((function(r,n){t=o[e]=[r,n]}));r.push(t[2]=n);
-                                                                                                     var u,i=document.createElement("script");
-                                                                                                     i.charset="utf-8",i.timeout=120,a.nc&&i.setAttribute("nonce",a.nc),i.src=function(e){return a.p+"static/js/"+({}[e]||e)+"."+{3:"8a0e34f9"}[e]+".chunk.js"}(e);
-                                                                                                     var l=new Error;u=function(r){i.onerror=i.onload=null,clearTimeout(c);
-                                                                                                                                   var t=o[e];
-                                                                                                                                   if(0!==t){if(t)
-                                                                                                                                   {var n=r&&("load"===r.type?"missing":r.type),u=r&&r.target&&r.target.src;l.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",l.name="ChunkLoadError",l.type=n,l.request=u,t[1](l)}o[e]=void 0}};
-                                                                                                     var c=setTimeout((function(){u({type:"timeout",target:i})}),12e4);
-                                                                                                     i.onerror=i.onload=u,document.head.appendChild(i)}return 
-                                                                                              Promise.all(r)},a.m=e,a.c=n,a.d=function(e,r,t){a.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},a.r=function(e){"undefined"!=typeof 
-                     Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},a.t=function(e,r){if(1&r&&(e=a(e)),8&r)return e;
-                                                                                                     if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;
-                                                                                                     var t=Object.create(null);if(a.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)a.d(t,n,function(r){return e[r]}.bind(null,n));
-                                                                                                     return t},a.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};
-                                                                                                                               return a.d(r,"a",r),r},a.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},a.p="/",a.oe=function(e){throw console.error(e),e};
-     var i=this["webpackJsonplobe-web-sample"]=this["webpackJsonplobe-web-sample"]||[],l=i.push.bind(i);i.push=r,i=i.slice();
-     for(var c=0;c<i.length;c++)r(i[c]);
-     var f=l;t()}([])
-  </script><script src="/static/js/2.af31dfc2.chunk.js">
-  </script><script src="/static/js/main.39c64177.chunk.js">
-  </script>
-  </body>
-</html>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div><div id="image-select-button"><div><div class="blur-container square-button"><img id="gallery-icon" src="/static/media/gallery.45752e9c.svg" alt="ファイルセレクタ"></div></div><input type="file" accept="image/*" style="display: none;"></div><div id="video-container"><div id="camera-select-button"><div><div class="blur-container square-button"><img id="gear-icon" src="/static/media/gear.b1f1407e.svg" alt="歯車アイコン"></div></div><div class="blur-container source-selector"><div class="toggle-container"><div class="toggle-item-container"><div class="toggle-item source-device source-selected"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">画像を反転</font></font></div><div class="toggle-radio-button"><img src="/static/media/check.06c31cf8.svg" alt="ウェブカメラボタンを反転"></div></div></div></div></div><video autoplay="" playsinline="" style="transform: scaleX(-1);"></video></div><div id="predictions"><div class="blur-container prediction-container"><div class="prediction-entry"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">読み込んでいます...</font></font></div></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="/static/js/bundle.js"></script><script src="/static/js/vendors~main.chunk.js"></script><script src="/static/js/main.chunk.js"></script><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google Translate"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Original text</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Contribute a better translation</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+
+<div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
+
